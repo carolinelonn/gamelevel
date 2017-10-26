@@ -7,7 +7,7 @@ public class PickUpTrigger : MonoBehaviour {
     void OnTriggerEnter2D (Collider2D other) {
         GetComponent<Renderer>().enabled = false;
         Destroy(this);
-        other.GetComponent<PlayerControllerNew>().count = other.GetComponent<PlayerControllerNew>().count + 1;
+        other.GetComponent<PlayerControllerLawnmower>().count = other.GetComponent<PlayerControllerLawnmower>().count + 1;
     }
 	
 }

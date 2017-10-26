@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerControllerNew: MonoBehaviour {
+public class PlayerControllerLawnmower : MonoBehaviour {
 
     public float moveSpeed;
     public int count;
@@ -21,7 +21,7 @@ public class PlayerControllerNew: MonoBehaviour {
         moveSpeed = 5;
         count = 0;
         Lawnmover = GameObject.Find("Lawnmover");
-        Lawnmover.SetActive(false);
+        //Lawnmover.SetActive(false);
 
         LawnmoverLimit = GameObject.Find("LawnmoverLimit");
         //gets the lawnmover limit's collider and the players colliders and ignores their collitions

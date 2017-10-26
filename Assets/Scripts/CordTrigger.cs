@@ -15,12 +15,14 @@ public class CordTrigger : MonoBehaviour {
 
     void Start(){
         fence = GameObject.Find("fence");
-        FenceTrigger = GameObject.Find("FenceTrigger");
         Lawnmover = GameObject.Find("Lawnmover");
+        FenceTrigger = GameObject.Find("FenceTrigger");
 
         wireBolt = GameObject.Find("wireBolt");
         wireBolt.SetActive(false);
         boltTime = 0.21f;
+
+        //Debug.Log("trigger: " + Lawnmover.GetComponent<Collider2D>());
     }
     /*
     void Update(){
@@ -30,11 +32,10 @@ public class CordTrigger : MonoBehaviour {
         }
     }*/
 
-    void OnTriggerEnter2D(Collider2D other){
-        Debug.Log("trigger " + other.GetComponent<Collider2D>());
-        Debug.Log("test" + Lawnmover.GetComponent<Collider2D>());
+    void OnTriggerEnter2D (Collider2D other) {
+        //Debug.Log("trigger: " + other);
+        //Debug.Log("Lawnmover: " + Lawnmover);
         if (other == Lawnmover.GetComponent<Collider2D>()){
-            Debug.Log("triggerIF ");
             //Debug.Log("IF FenceTrigger: " + FenceTrigger);
             fence.GetComponent<Collider2D>().enabled = false;
             anim = fence.GetComponent<Animator>();
@@ -46,7 +47,6 @@ public class CordTrigger : MonoBehaviour {
             //boltTime = 0.21f;
             //PLAY ANIMATION
         }
-
     }
 	
 }

@@ -91,7 +91,7 @@
     <Compile Include="Assets\Scripts\PickUpTrigger.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\PlayerController_AmericanAge.cs" />
-    <Compile Include="Assets\Scripts\PlayerControllerNew.cs" />
+    <Compile Include="Assets\Scripts\PlayerControllerLawnmower.cs" />
     <Compile Include="Assets\Scripts\PlayerControllerNew1.cs" />
     <Compile Include="Assets\Scripts\Police.cs" />
     <Compile Include="Assets\Scripts\Police_Vertical.cs" />
