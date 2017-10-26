@@ -82,15 +82,20 @@
     <Compile Include="Assets\Scripts\Clock.cs" />
     <Compile Include="Assets\Scripts\CommonerControllerRight.cs" />
     <Compile Include="Assets\Scripts\CommonerControllerUp.cs" />
+    <Compile Include="Assets\Scripts\CordTrigger.cs" />
+    <Compile Include="Assets\Scripts\Death.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\GuillotineTrigger.cs" />
     <Compile Include="Assets\Scripts\MenuCtrl.cs" />
     <Compile Include="Assets\Scripts\Picking_Up.cs" />
+    <Compile Include="Assets\Scripts\PickUpTrigger.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\PlayerController_AmericanAge.cs" />
     <Compile Include="Assets\Scripts\PlayerControllerNew.cs" />
+    <Compile Include="Assets\Scripts\PlayerControllerNew1.cs" />
     <Compile Include="Assets\Scripts\Police.cs" />
     <Compile Include="Assets\Scripts\Police_Vertical.cs" />
+    <Compile Include="Assets\Scripts\Touched.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
