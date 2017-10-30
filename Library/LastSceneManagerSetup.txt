@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/lawnmower.unity
+- path: Assets/Scenes/guillotine.unity
   isLoaded: 1
   isActive: 1

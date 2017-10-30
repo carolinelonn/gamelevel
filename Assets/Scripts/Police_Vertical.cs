@@ -20,7 +20,7 @@ public class Police_Vertical : MonoBehaviour
         anim = GetComponent<Animator>();
         moveSpeed = 1;
         moveDirection = 0;
-        moveTimer = Random.Range(3, 5);
+        moveTimer = Random.Range(2, 4);
         moveDuration = 0.8f;
         moves = false;
 
@@ -44,7 +44,7 @@ public class Police_Vertical : MonoBehaviour
             }
 
             //Debug.Log("moveDirection" + moveDirection);
-            moveTimer = Random.Range(3, 5);
+            moveTimer = Random.Range(2, 4);
             //Debug.Log("moveTimer" + moveTimer);
             moveDuration = 0.8f;
         }

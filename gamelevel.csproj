@@ -86,7 +86,7 @@
     <Compile Include="Assets\Scripts\Death.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\GuillotineTrigger.cs" />
-    <Compile Include="Assets\Scripts\MenuCtrl.cs" />
+    <Compile Include="Assets\Scripts\Menu_Control.cs" />
     <Compile Include="Assets\Scripts\Picking_Up.cs" />
     <Compile Include="Assets\Scripts\PickUpTrigger.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
