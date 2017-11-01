@@ -4960,6 +4960,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   countText: {fileID: 851800278}
   sceneName: Level_1
+  sceneName2: godLevel
 --- !u!1 &1585691219
 GameObject:
   m_ObjectHideFlags: 0

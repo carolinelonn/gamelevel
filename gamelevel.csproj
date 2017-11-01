@@ -84,6 +84,7 @@
     <Compile Include="Assets\Scripts\CommonerControllerUp.cs" />
     <Compile Include="Assets\Scripts\CordTrigger.cs" />
     <Compile Include="Assets\Scripts\Death.cs" />
+    <Compile Include="Assets\Scripts\Dialogue.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\GuillotineTrigger.cs" />
     <Compile Include="Assets\Scripts\Menu_Control.cs" />

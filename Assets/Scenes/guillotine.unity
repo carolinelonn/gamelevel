@@ -1577,6 +1577,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 0}
+  sceneName: godLevel
 --- !u!95 &273261738
 Animator:
   serializedVersion: 3

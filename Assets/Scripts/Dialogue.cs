@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 [RequireComponent(typeof(Text))]
 public class Dialogue : MonoBehaviour
@@ -21,6 +22,8 @@ public class Dialogue : MonoBehaviour
     public GameObject ContinueIcon;
     public GameObject StopIcon;
 
+    public string sceneName;
+
 	// Use this for initialization
 	void Start ()
 	{
@@ -39,8 +42,9 @@ public class Dialogue : MonoBehaviour
 	        {
                 _isDialoguePlaying = true;
                 StartCoroutine(StartDialogue());
+            
             }
-	        
+           
 	    }
 	}
 
@@ -59,6 +63,8 @@ public class Dialogue : MonoBehaviour
                 if (currentDialogueIndex >= dialogueLength)
                 {
                     _isEndOfDialogue = true;
+                  
+
                 }
             }
 

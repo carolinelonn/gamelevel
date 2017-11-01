@@ -10,6 +10,7 @@ public class Picking_Up: MonoBehaviour
     private int count;
     public Text countText;
     public string sceneName;
+    public string sceneName2;
 
 
        void Start()
@@ -36,7 +37,7 @@ public class Picking_Up: MonoBehaviour
         }
         if (count == 13)
         {
-            countText.text = "victory";
+            SceneManager.LoadScene(sceneName2);
 
         }
     }
