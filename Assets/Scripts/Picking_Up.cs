@@ -16,7 +16,7 @@ public class Picking_Up: MonoBehaviour
        void Start()
         {
         count = 0;
-        SetCountText();
+ 
     }
 
 
@@ -27,7 +27,7 @@ public class Picking_Up: MonoBehaviour
             {
             other.gameObject.SetActive(false);
             count = count + 1;
-            SetCountText();
+            
 
         }
         if (other.gameObject.CompareTag("Police"))
@@ -40,10 +40,5 @@ public class Picking_Up: MonoBehaviour
             SceneManager.LoadScene(sceneName2);
 
         }
-    }
-
-     void SetCountText()
-    {
-        countText.text = "count:" + count.ToString();
     }
     }
