@@ -24,7 +24,7 @@ public class Clock_2 : MonoBehaviour
         Countdown.text = timer.ToString("00:00");
         if (timer <= 0)
         {
-            Dialogue.scene_Load = 7;
+            Dialogue.scene_Load = 6;
             SceneManager.LoadScene("godLevel");
         }
     }

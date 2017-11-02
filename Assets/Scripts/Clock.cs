@@ -20,7 +20,7 @@ public class Clock : MonoBehaviour {
         timer = timer - Time.deltaTime;
         Countdown.text = timer.ToString("00:00");
         if (timer <= 0){
-            Dialogue.scene_Load = 6;
+            Dialogue.scene_Load = 5;
             SceneManager.LoadScene("godLevel");
         }
     }

@@ -14,7 +14,7 @@ public class GuillotineTrigger : MonoBehaviour {
         other.GetComponent<Renderer>().enabled = false;
         anim.SetTrigger("death");
 
-        Dialogue.scene_Load = 3;
+        Dialogue.scene_Load = 2;
         SceneManager.LoadScene("godLevel");
     }
 	

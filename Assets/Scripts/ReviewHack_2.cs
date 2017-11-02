@@ -14,7 +14,7 @@ public class ReviewHack_2 : MonoBehaviour {
 	void Update () {
         if (Input.GetKeyDown(KeyCode.R))
         {
-            Dialogue.scene_Load = 4;
+            Dialogue.scene_Load = 2;
             SceneManager.LoadScene("godLevel");
         }
     }
