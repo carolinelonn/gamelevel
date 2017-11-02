@@ -26,8 +26,7 @@ public class ReviewHack : MonoBehaviour {
                     SceneManager.LoadScene("Level_1");
                     break;
                 case 4:
-                    Dialogue.scene_Load = 8;
-                    SceneManager.LoadScene("godLevel");
+                    SceneManager.LoadScene("baby");
                     break;
                 case 5:
                     SceneManager.LoadScene("guillotine");
@@ -39,7 +38,7 @@ public class ReviewHack : MonoBehaviour {
                     SceneManager.LoadScene("Level_1");
                     break;
                 case 8:
-                    SceneManager.LoadScene("Menu");
+                    SceneManager.LoadScene("baby");
                     break;
 
             }
