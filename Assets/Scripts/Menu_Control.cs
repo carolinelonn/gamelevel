@@ -7,6 +7,7 @@ public class Menu_Control : MonoBehaviour {
 
     public void NewGameBtn(string newGameLevel)
     {
+        Dialogue.scene_Load = 1;
         SceneManager.LoadScene(newGameLevel);
     }
 

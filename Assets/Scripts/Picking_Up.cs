@@ -32,12 +32,14 @@ public class Picking_Up: MonoBehaviour
         }
         if (other.gameObject.CompareTag("Police"))
         {
-            SceneManager.LoadScene(sceneName);
+            Dialogue.scene_Load = 5;
+            SceneManager.LoadScene("godLevel");
 
         }
         if (count == 13)
         {
-            SceneManager.LoadScene(sceneName2);
+            Dialogue.scene_Load = 2;
+            SceneManager.LoadScene("godLevel");
 
         }
     }

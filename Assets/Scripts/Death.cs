@@ -14,7 +14,8 @@ public class Death : MonoBehaviour{
         anim = other.gameObject.GetComponent<Animator>();
         anim.SetTrigger("Death");
         //Application.LoadLevel(index: Application.loadedLevel);
-        SceneManager.LoadScene(sceneName);
+        Dialogue.scene_Load = 4;
+        SceneManager.LoadScene("godLevel");
 
     }
 

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Clock : MonoBehaviour {
 
@@ -19,7 +20,8 @@ public class Clock : MonoBehaviour {
         timer = timer - Time.deltaTime;
         Countdown.text = timer.ToString("00:00");
         if (timer <= 0){
-            Application.LoadLevel(index: Application.loadedLevel);
+            Dialogue.scene_Load = 6;
+            SceneManager.LoadScene("godLevel");
         }
     }
 }
