@@ -40,6 +40,9 @@ public class ReviewHack : MonoBehaviour {
                 case 8:
                     SceneManager.LoadScene("baby");
                     break;
+                case 9:
+                    SceneManager.LoadScene("Menu");
+                    break;
 
             }
         }

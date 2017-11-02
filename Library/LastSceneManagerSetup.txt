@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/godLevel.unity
+- path: Assets/Scenes/baby.unity
   isLoaded: 1
   isActive: 1
