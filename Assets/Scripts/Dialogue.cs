@@ -141,9 +141,18 @@ public class Dialogue : MonoBehaviour
                 break;
             case 8:
                 DialogueStrings.Clear();
+                DialogueStrings.Add("god: I bet that your father doesn't like seeing you and that is sad");
+                DialogueStrings.Add("you: Trully. But I am just a kid");
+                DialogueStrings.Add("god: Doesn't matter. See if you can distract your father, ther was a hammer nearby. Find something breakable");
+                DialogueStrings.Add("god: And if you are a game reviewer: Distract him, get the key, open the door and drink the two poisons");
+                DialogueStrings.Add("you: Ummm thanks? Was I ever a game reviewer?");
+                DialogueStrings.Add("god: Yes. Now go try to die again");
+                break;
+            case 9:
+                DialogueStrings.Clear();
                 DialogueStrings.Add("You: Well. When do I... hatch?");
-                DialogueStrings.Add("god: Technically there was supposed to be another. But we don't have that becaues of... reasons");
-                DialogueStrings.Add("You: So, I won't be able to be come a god without that level?");
+                DialogueStrings.Add("god: Technically there was supposed to be another scene. But we don't have that becaues of... reasons");
+                DialogueStrings.Add("You: So, I won't be able to be come a god without that scene?");
                 DialogueStrings.Add("god: Nah. I am a merciful god... you can just win. Close enough!");
                 break;
         }

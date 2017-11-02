@@ -24,19 +24,25 @@ public class LoadNextLevel : MonoBehaviour {
                     SceneManager.LoadScene("Level_1");
                     break;
                 case 4:
-                    Dialogue.scene_Load = 8;
-                    SceneManager.LoadScene("godLevel");
+                    SceneManager.LoadScene("baby");
                     break;
                 case 5:
+                    Dialogue.scene_Load = 1;
                     SceneManager.LoadScene("guillotine");
                     break;
                 case 6:
+                    Dialogue.scene_Load = 2;
                     SceneManager.LoadScene("lawnmower");
                     break;
                 case 7:
+                    Dialogue.scene_Load = 3;
                     SceneManager.LoadScene("Level_1");
                     break;
                 case 8:
+                    Dialogue.scene_Load = 4;
+                    SceneManager.LoadScene("baby");
+                    break;
+                case 9:
                     SceneManager.LoadScene("Menu");
                     break;
 

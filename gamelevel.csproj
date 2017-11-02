@@ -219,7 +219,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\BabyFather.cs" />
     <Compile Include="Assets\Scripts\BoardManager.cs" />
+    <Compile Include="Assets\Scripts\BottleTrigger.cs" />
     <Compile Include="Assets\Scripts\Clock.cs" />
     <Compile Include="Assets\Scripts\Clock_2.cs" />
     <Compile Include="Assets\Scripts\CommonerControllerRight.cs" />
@@ -227,22 +229,29 @@
     <Compile Include="Assets\Scripts\CordTrigger.cs" />
     <Compile Include="Assets\Scripts\Death.cs" />
     <Compile Include="Assets\Scripts\Dialogue.cs" />
+    <Compile Include="Assets\Scripts\EnterRoom.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\GuillotineTrigger.cs" />
     <Compile Include="Assets\Scripts\LoadNextLevel.cs" />
     <Compile Include="Assets\Scripts\Menu_Control.cs" />
+    <Compile Include="Assets\Scripts\OpenDoor.cs" />
     <Compile Include="Assets\Scripts\Picking_Up.cs" />
+    <Compile Include="Assets\Scripts\PickUpHammer.cs" />
+    <Compile Include="Assets\Scripts\PickUpKey.cs" />
     <Compile Include="Assets\Scripts\PickUpTrigger.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\PlayerController_AmericanAge.cs" />
+    <Compile Include="Assets\Scripts\PlayerController_Baby.cs" />
     <Compile Include="Assets\Scripts\PlayerControllerLawnmower.cs" />
     <Compile Include="Assets\Scripts\PlayerControllerNew1.cs" />
     <Compile Include="Assets\Scripts\Police.cs" />
     <Compile Include="Assets\Scripts\Police_Vertical.cs" />
+    <Compile Include="Assets\Scripts\PowerTrigger.cs" />
     <Compile Include="Assets\Scripts\ReviewHack.cs" />
     <Compile Include="Assets\Scripts\ReviewHack_1.cs" />
     <Compile Include="Assets\Scripts\ReviewHack_2.cs" />
     <Compile Include="Assets\Scripts\ReviewHack_3.cs" />
+    <Compile Include="Assets\Scripts\ReviewHack_4.cs" />
     <Compile Include="Assets\Scripts\Touched.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
