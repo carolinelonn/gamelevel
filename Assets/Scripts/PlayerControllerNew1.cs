@@ -41,9 +41,9 @@ public class PlayerControllerNew1 : MonoBehaviour {
         {
             playerRigidbody.velocity = new Vector2(playerRigidbody.velocity.x, 0f);
         }
-        /*
+        
         anim.SetFloat("MoveX", Input.GetAxisRaw("Horizontal"));
         anim.SetFloat("MoveY", Input.GetAxisRaw("Vertical"));
-        */
+        
     }
 }
