@@ -17,5 +17,10 @@ public class ReviewHack_1 : MonoBehaviour {
             Dialogue.scene_Load = 4;
             SceneManager.LoadScene("godLevel");
         }
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Dialogue.scene_Load = 1;
+            SceneManager.LoadScene("Menu");
+        }
     }
 }
