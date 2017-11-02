@@ -119,19 +119,19 @@ public class Dialogue : MonoBehaviour
                 DialogueStrings.Add("God: Yes. A universe. An egg. Infinites of you, growing building on itself. An unhatched egg");
                 DialogueStrings.Add("God: Go now. Move to the next life");
                 break;
-            case 5:
+            case 7:
                 DialogueStrings.Clear();
                 DialogueStrings.Add("GOD: Don't give up! Just learn their patterns. You are here to learn");
                 DialogueStrings.Add("YOU: How did I get to be such an alchoolic?");
                 DialogueStrings.Add("GOD: Students can't be alchoolics. It's in the dictionary.");
                 break;
-            case 6:
+            case 5:
                 DialogueStrings.Clear();
                 DialogueStrings.Add("god: Ummmmmm. Do you really need a tip for this?");
                 DialogueStrings.Add("you: Well, you should give me tips in this scene");
                 DialogueStrings.Add("god: Sure... just... ummm, guillotines kill");
                 break;
-            case 7:
+            case 6:
                 DialogueStrings.Clear();
                 DialogueStrings.Add("god: You pick stuff up from walking on it");
                 DialogueStrings.Add("you: Strange, isn't it? Do I even have hands? How do I use stuff?");
